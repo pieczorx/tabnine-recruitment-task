@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "./.dist/",
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es2015",
+    "lib": ["es6"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "reflect-metadata",
+      "@types/jest",
+      "@types/express",
+    ],
+    "preserveConstEnums": true,
+  },
+  "exclude": [
+    "./node_modules/**",
+    "./**/*.test.ts",
+    "./.dist/**",
+  ]
+}

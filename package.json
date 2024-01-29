@@ -1,0 +1,26 @@
+{
+  "name": "tabnine-recruitment-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pieczorx <pieczorex@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node .dist/setup/main.js"
+  },
+  "dependencies": {
+    "dotenv-extended": "^2.9.0",
+    "express": "^4.18.2",
+    "express-promise-router": "^4.1.1",
+    "inversify": "^6.0.2",
+    "ioredis": "^5.3.2",
+    "redis": "^4.6.12",
+    "reflect-metadata": "^0.2.1",
+    "socket.io": "^4.7.4",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.11"
+  }
+}
